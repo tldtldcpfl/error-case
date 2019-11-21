@@ -1,0 +1,19 @@
+elin@SAMSUNG:~/keras/examples$ python -V
+Python 2.7.15+
+elin@SAMSUNG:~/keras/examples$ sudo update-alternatives --config python
+update-alternatives: error: no alternatives for python
+elin@SAMSUNG:~/keras/examples$ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6 2
+update-alternatives: using /usr/bin/python3.6 to provide /usr/bin/python (python) in auto mode
+elin@SAMSUNG:~/keras/examples$ python -V
+Python 3.6.8
+elin@SAMSUNG:~/keras/examples$ sudo pip3 install keras
+The directory '/home/elin/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/home/elin/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Requirement already satisfied: keras in /home/elin/.local/lib/python3.6/site-packages
+Requirement already satisfied: pyyaml in /home/elin/.local/lib/python3.6/site-packages (from keras)
+Requirement already satisfied: keras-applications>=1.0.6 in /home/elin/.local/lib/python3.6/site-packages (from keras)
+Requirement already satisfied: numpy>=1.9.1 in /home/elin/.local/lib/python3.6/site-packages (from keras)
+Requirement already satisfied: six>=1.9.0 in /home/elin/.local/lib/python3.6/site-packages (from keras)
+Requirement already satisfied: scipy>=0.14 in /home/elin/.local/lib/python3.6/site-packages (from keras)
+Requirement already satisfied: keras-preprocessing>=1.0.5 in /home/elin/.local/lib/python3.6/site-packages (from keras)
+Requirement already satisfied: h5py in /home/elin/.local/lib/python3.6/site-packages (from keras)
