@@ -1,0 +1,5 @@
+E: Sub-process /usr/bin/dpkg returned an error code (1)
+
+dpkg  install error
+
+https://askubuntu.com/questions/909719/dpkg-unrecoverable-fatal-error-aborting-files-list-file-for-package-linux-g
