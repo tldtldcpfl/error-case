@@ -1,0 +1,3 @@
+elin@SAMSUNG:~/keras/examples$ sudo python3 mnist_cnn.py
+Using TensorFlow backend.
+Illegal instruction (core dumped)
